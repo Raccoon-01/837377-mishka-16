@@ -30,24 +30,24 @@
         <input class="main-nav__input-search" type="text" id="search" name="search">
         <button class="main-nav__input-toggle visually-hidden" type="submit" name="button">Найти</button>
       </form>
-      <ul class="main-nav__list site-list">
-        <li class="site-list__item visually-hidden">
-          <a href="#">Новые поступления</a>
-        </li>
-        <li class="site-list__item visually-hidden">
-          <a href="#">Распродажа</a>
-        </li>
-        <li class="site-list__item visually-hidden">
-          <a href="#">Бесплатная доставка по России</a>
-        </li>
-      </ul>
     </div>
   </nav>
 </header>
 
 <main class="page-main">
-  <h1 class="visually-hidden">Интернет магазин Мишка</h1>
-  <h2 class="page-main__form-title">Каталог товаров</h2>
+  <section class="nav-catalog">
+    <h1 class="visually-hidden">Интернет магазин Мишка</h1>
+    <ul class="nav__sell site-list">
+      <li class="site-list__item visually-hidden">
+         <a href="#">Новые поступления</a></li>
+      <li class="site-list__item visually-hidden"><a href="#">Распродажа</a>
+      </li>
+      <li class="site-list__item visually-hidden">
+        <a href="#">Бесплатная доставка по России</a>
+      </li>
+    </ul>
+    <h2 class="page-main__form-title">Каталог товаров</h2>
+  </section>
 
   <section class="catalog">
     <ul class="catalog__list">
@@ -105,10 +105,12 @@
       <source src="movie.ogg" type="video/ogg">
       Ваш браузер не поддерживает тег видео
     </video>
-    <h2 class="production__title">Процесс производства</h2>
-    <p class="production__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том,
+    <div class="production__info">
+      <h2 class="production__title">Процесс производства</h2>
+      <p class="production__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том,
     как появляютсянаши товары.</p>
-    <button class="production__toggle" type="button">Сделать заказ</button>
+      <button class="production__toggle" type="button">Сделать заказ</button>
+    </div>
   </section>
 
 </main>

@@ -5,3 +5,30 @@
   color: #000000;
   text-align: left;
 }
+
+.page-footer {
+  min-height: 160px; /*временно*/
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.page-footer__feedback-list {
+  list-style: none;
+  display: flex;
+}
+
+@media (min-width: 772px) {
+  .page-footer {
+    width: 772px;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1150px) {
+  .page-footer {
+    width: 1150px;
+    flex-direction: row;
+  }
+}
