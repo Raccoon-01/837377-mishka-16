@@ -1,26 +1,19 @@
-.week-product__title {
-  font-size: 17px;
+.contacts__title {
+  font-size: 18px;
   font-weight: bold;
-  line-height: 20px;
+  line-height: 30px;
+  color: #000000;
   text-align: left;
-  color: #63d1bb;
 }
 
-.week-product__char {
-  line-height: 20px;
+.contacts__table {
+  font-size: 15px;
+  line-height: 30px;
   color: #444444;
   text-align: left;
 }
 
-.week-product__price {
-  font-size: 17px;
-  font-weight: bold;
-  line-height: 24px;
-  color: #444444;
-  text-align: center;
-}
-
-.week-product__toggle {
+.contacts__toggle {
   font-size: 17px;
   font-weight: bold;
   text-transform: uppercase;
@@ -29,4 +22,13 @@
   text-align: center;
   background-color: #ffffff;
   border: 2px solid #444444;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 1150px) {
+    flex-direction: row;
+  }
 }

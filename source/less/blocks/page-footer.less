@@ -1,0 +1,30 @@
+.page-footer__developer {
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #000000;
+  text-align: left;
+}
+
+.page-footer {
+  min-height: 160px; /*временно*/
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: 0 auto;
+
+  @media (min-width: 772px) {
+    width: 772px;
+    flex-direction: row;
+  }
+
+  @media (min-width: 1150px) {
+    width: 1150px;
+  }
+}
+
+.page-footer__feedback-list {
+  list-style: none;
+  display: flex;
+}
+

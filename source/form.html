@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML Academy: Мишка</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/normalize-min.css">
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -30,23 +32,21 @@
         <input class="main-nav__input-search" type="text" id="search" name="search">
         <button class="main-nav__input-toggle visually-hidden" type="submit" name="button">Найти</button>
       </form>
-      <ul class="main-nav__list site-list">
-        <li class="site-list__item visually-hidden">
-          <a href="#">Новые поступления</a>
-        </li>
-        <li class="site-list__item visually-hidden">
-          <a href="#">Распродажа</a>
-        </li>
-        <li class="site-list__item visually-hidden">
-          <a href="#">Бесплатная доставка по России</a>
-        </li>
-      </ul>
     </div>
   </nav>
 </header>
 
 <main class="page-main">
   <h1 class="visually-hidden">Интернет магазин Мишка</h1>
+  <ul class="nav__sell site-list">
+    <li class="site-list__item visually-hidden">
+      <a href="#">Новые поступления</a></li>
+    <li class="site-list__item visually-hidden"><a href="#">Распродажа</a>
+    </li>
+    <li class="site-list__item visually-hidden">
+      <a href="#">Бесплатная доставка по России</a>
+    </li>
+  </ul>
   <h2 class="page-main__form-title">Вязание на заказ</h2>
   <p class="page-main__form-intro">Мы будем рады воплотить в жизнь ваши пожелания! заполните простую форму заказа и
   мы свяжемся с вами, чтобы уточнить детали.</p>
